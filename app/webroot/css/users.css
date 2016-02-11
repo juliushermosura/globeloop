@@ -1,0 +1,240 @@
+#mail {
+  /*background: url('../img/mail_bg.png') no-repeat;*/
+  font-size: 12px;
+  list-style: none;
+  margin: 0;
+  padding-top: 10px;
+  height: 88px;
+}
+
+#mail li {
+  padding: 0;
+  line-height: 1.5;
+}
+
+#mail li a {
+  text-decoration: none;
+}
+
+#mail img {
+  vertical-align: middle;
+}
+
+#mail li a:hover {
+  text-decoration: underline;
+}
+
+#chat {
+  background: url('../img/chat_bg.png') no-repeat;
+  font-size: 12px;
+  list-style: none;
+  margin: 0;
+  padding-top: 26px;
+  margin-top: 8px;
+  height: 225px;
+  position: relative;
+}
+
+#online_viewPort {
+  overflow: hidden;
+  height: 165px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 4px;
+}
+
+.online_canvas {
+  background: #FFFFFF;
+  min-height: 215px;
+}
+
+.graybar {
+  background: #F1F1F1;
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  position: relative;
+  margin-bottom: 0;
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.graybar div {
+  margin: 0;
+  padding: 5px;
+}
+
+.friendstitle, .messagestitle {
+  width: 100px;
+  font-weight: bold;
+  color: #779441;
+  font-size: 14px;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+.filter {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 200px;
+  position: absolute;
+  right: 10px;
+}
+
+.filter input {
+  width: 185px;
+  font-size: 12px;
+}
+
+.ac_results {
+  padding: 0px;
+  border: 1px solid black;
+  background-color: white;
+  overflow: hidden;
+  z-index: 99999;
+  color: black;
+}
+
+.ac_results ul {
+  width: 100%;
+  list-style-position: outside;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ac_results li {
+  margin: 0px;
+  padding: 2px 5px;
+  cursor: default;
+  display: block;
+  /* 
+  if width will be 100% horizontal scrollbar will apear 
+  when scroll mode will be used
+  */
+  /*width: 100%;*/
+  font: menu;
+  font-size: 12px;
+  /* 
+  it is very important, if line-height not setted or setted 
+  in relative units scroll will be broken in firefox
+  */
+  line-height: 16px;
+  overflow: hidden;
+}
+
+.ac_loading {
+  background: white url('indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+  background-color: #eee;
+}
+
+.ac_over {
+  background-color: #0A246A;
+  color: white;
+}
+
+.user_search_details, .user_mail_details {
+  display: block;
+  width: auto;
+  border: 1px solid #F0F0F0;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.friendslist {
+  display: block;
+  width: auto;
+  padding: 5px;
+}
+
+.messageslist {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 705px;
+  padding: 5px;
+}
+
+#messageBodyContainer {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+  width: 705px;
+  padding: 5px;
+}
+
+.messagePlaceholder {
+  display: block;
+  clear: both;
+  padding-top: 5px;
+  overflow: hidden;
+  !width: auto;
+}
+
+.subjectPlaceholder {
+  clear: both;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.friendslist div {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.friend_details {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 44%;
+  margin: 10px;
+  border: 1px solid #F0F0F0;
+  padding: 10px;
+}
+
+.user_thumb_pic {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  margin-bottom: 0;
+}
+
+.user_search_info {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-top: 7px;
+}
+
+.user_mail_info {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+  width: 20%;
+  margin-bottom: 20px;
+  margin-top: 7px;
+}
+
+.subject_mail_info {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+  width: 64%;
+  height: 52px;
+  padding: 7px;
+}

@@ -1,0 +1,35 @@
+.arrowchat_chatboxmessagefrom {
+	margin-top: 15px;
+}
+
+.arrowchat_chatboxmessagefrom a {
+	color: #467DA0;
+}
+.arrowchat_chatboxmessagefrom a:hover{
+	color: #467DA0;
+	text-decoration: underline;
+}
+
+.arrowchat_ts {
+	color: #777;
+	text-shadow:1px 1px 0 #fff;
+}
+
+.mobile_alert{
+	background:#FF0000;
+	border:1px solid #D90000;
+	border-bottom-left-radius:2px 2px;
+	border-bottom-right-radius:2px 2px;
+	border-top-left-radius:2px 2px;
+	border-top-right-radius:2px 2px;
+	color:#FFF;
+	font-size:9px;
+	font-weight:bold;
+	margin-left:2px;
+	padding:1px 3px;
+	float:right;
+	position:absolute;
+	top:13px;
+	right:40px;
+	display:none;
+}
